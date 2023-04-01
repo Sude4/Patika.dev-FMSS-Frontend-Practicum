@@ -9,7 +9,7 @@ const getPost = async(id_) => {
     const {data : post} = await axios(`https://jsonplaceholder.typicode.com/posts?userId=${id_}`);
     console.log(post); 
 };
-
+//try-catch kullanımım pekişmesi için hemde bu örnekte işe yarayacağını düşündüğüm için.
 function getData(id_) {
     try {
     const user = getUser(id_);
