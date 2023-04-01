@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "axios"; // axios kütüphanesi istenildiği üzere kullanıldı
 
 const getUser =async(id_) => {
     const {data : user} = await axios("https://jsonplaceholder.typicode.com/users/"+ id_);
